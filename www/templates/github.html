@@ -1,0 +1,9 @@
+<ion-view view-title="Github">
+    <ion-content >
+        <p>
+            <input type="text" placeholder="GitHub username" ng-model="username" ng-change="onchange(username)"/>
+            {{username}}
+        </p>
+        <img src="{{avatar_url}}" ng-show="show_image"/>
+    </ion-content>
+</ion-view>
